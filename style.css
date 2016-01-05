@@ -1,0 +1,100 @@
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+:hover, :focus, :active { outline: none; }
+
+html, button, input, select, textarea {
+	font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+	font-weight: normal; font-weight: 400; color: #333;
+	font-smooth:always; -webkit-font-smoothing: antialiased; font-smoothing: antialiased; text-shadow: 1px 1px 1px rgba(0,0,0,0.004);}
+
+body{ margin: 12%; font-size: 16px; line-height: 1.618em; width: 76%; max-width: 600px;}
+
+a {color: #36B3A6; font-weight: normal; cursor: pointer; text-decoration: none; background: transparent; transition:color 0.2s ease; -moz-transition:color 0.2s ease; -webkit-transition:color 0.2s ease; -o-transition:color 0.2s ease;}
+a:hover {text-decoration: underline; outline: 0;} 
+::-moz-selection { background: #111; color: #fff; text-shadow: none; }
+::selection { background: #111; color: #fff; text-shadow: none; }
+a:active, a:focus{position:relative;top:1px;}
+
+.hero { margin-bottom: 3em; }
+
+h1 {font-weight: bold; font-size: 26px; margin: 0; text-rendering: optimizeLegibility; line-height: 1.618em;}
+h2 { font-weight: normal; font-size: 20px; color: #666; margin: 0; line-height: 1.618em;}
+
+.main { margin-bottom: 3em; }
+
+
+.delay2 {
+	-webkit-animation-delay: .5s; 
+    animation-delay: .5s;}
+
+.delay3 {
+	-webkit-animation-delay: 1.3s; 
+    animation-delay: 1.3s;}
+
+.delay4 {
+	-webkit-animation-delay: 2.2s; 
+    animation-delay: 2.2s;}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}

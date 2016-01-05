@@ -1,0 +1,45 @@
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width">
+	
+	<meta name="description" content="404 - Page not found / Sylvain Lafitte is a product designer living in Melbourne, Australia.">
+	<meta name="author" content="Sylvain Lafitte, Web Designer, sylvainlafitte.com">
+	
+	<title>404 / Sylvain Lafitte / Product designer</title>
+	
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="shortcut icon" type="image/png" href="favicon.png">
+	
+	<link rel="stylesheet" href="/style.css">
+	
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<div class="hero">
+		<h1 class="animated fadeInDown delay1">Sylvain Lafitte</h1>
+		<h2 class="animated fadeInDown delay2">Product Designer living in Melbourne.</h2>
+	</div>
+
+	<div class="main animated fadeIn delay3">
+		<p>404 - Page not found</p>
+		<p><a href="http://sylvainlafitte.com">Back to the homepage.</a></p>
+	</div>
+
+	<div class="footer animated fadeIn delay4">
+		<p><a href="mailto:lafitte.sylvain@gmail.com" title="Email: lafitte.sylvain@gmail.com" target="_blank">Get in touch.</a></p>
+	</div>
+
+
+	<script>
+		var _gaq=[['_setAccount','UA-21758294-2'],['_trackPageview']];
+		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+		g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+		s.parentNode.insertBefore(g,s)}(document,'script'));
+	</script>
+
+</body>
