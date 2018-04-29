@@ -8,4 +8,5 @@ Now full time at [Xero](http://xero.com/ "Xero - Beautiful Accounting Software")
 I'm a Lead Designer across several key projects, but also responsible for contributing to the wider design strategy, looking after key relationships with product leaders and other teams, assisting other designers through mentorship, along with managing and improving our design team systems and processes.</p>
 
 [Get in touch.](mailto:lafitte.sylvain@gmail.com "Email: lafitte.sylvain@gmail.com")
-[Find me on LinkedIn](http://www.linkedin.com/in/sylvain-lafitte-00")
+
+[Find me on LinkedIn.](http://www.linkedin.com/in/sylvain-lafitte-00")
